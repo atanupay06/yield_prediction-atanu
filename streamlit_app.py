@@ -1,6 +1,5 @@
 # ----------------------------------------------------------
 # 🌾 Crop Yield & Production Prediction App (Ultimate UI)
-# Powered by Streamlit | Designed to Impress Management 😎
 # ----------------------------------------------------------
 
 import streamlit as st
@@ -19,7 +18,7 @@ st.markdown("""
 <style>
 /* Smooth background */
 .stApp {
-    background: #f5f7fa;
+    background: #0e1929;
 }
 
 /* Title */
@@ -230,3 +229,4 @@ with right:
 # -------------------------------------------------------------
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit by Atanu Paul-2025")
+
