@@ -67,7 +67,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='big-title'>🌾 AI-Powered Crop Yield & Production Predictor</div>", unsafe_allow_html=True)
+st.markdown("<div class='big-title'>🌾 ML Based Crop Yield & Production Predictor</div>", unsafe_allow_html=True)
 
 # ------------------------------------------------------
 # DATA FOR DROPDOWNS (Cascading State → District)
@@ -229,6 +229,7 @@ with right:
 # -------------------------------------------------------------
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit by Atanu Paul-2025")
+
 
 
 
