@@ -203,8 +203,8 @@ with right:
 
                 st.markdown(f"""
                     <div class="result-card">
-                        🌱 Predicted Yield: {pred_yield:.4f} per unit    
-                        📦 Total Production: {pred_production:.2f} units  
+                        🌱 **Predicted Yield:** {pred_yield:.4f} per unit    
+                        📦 **Total Production:** {pred_production:.2f} units  
                     </div>
                 """, unsafe_allow_html=True)
 
@@ -219,8 +219,8 @@ with right:
             st.info("⚠️ Demo Mode: Model not loaded, showing simulated result.")
             st.markdown(f"""
                 <div class="result-card">
-                    🌱 Estimated Yield: {demo_yield:.4f} 
-                    📦 Estimated Production: {demo_prod:.2f}
+                    🌱 **Estimated Yield:** {demo_yield:.4f} 
+                    📦 **Estimated Production:** {demo_prod:.2f}
                 </div>
             """, unsafe_allow_html=True)
 
@@ -229,6 +229,7 @@ with right:
 # -------------------------------------------------------------
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit by Atanu Paul-2025")
+
 
 
 
