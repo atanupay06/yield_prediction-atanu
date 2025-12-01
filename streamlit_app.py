@@ -27,12 +27,12 @@ st.markdown("""
     font-weight: 800 !important;
     padding: 10px;
     color: #2F855A;
-    text-align: center;
+.card    text-align: center;
 }
 
 /* Card Styling */
 .card {
-    background: white;
+    background: #0e1929;
     padding: 25px;
     border-radius: 16px;
     box-shadow: 0 6px 25px rgba(0,0,0,0.10);
@@ -219,8 +219,8 @@ with right:
             st.info("⚠️ Demo Mode: Model not loaded, showing simulated result.")
             st.markdown(f"""
                 <div class="result-card">
-                    🌱 **Estimated Yield:** {demo_yield:.4f}  
-                    📦 **Estimated Production:** {demo_prod:.2f}
+                    🌱 Estimated Yield: {demo_yield:.4f}<br>
+                    📦 Estimated Production: {demo_prod:.2f}
                 </div>
             """, unsafe_allow_html=True)
 
@@ -229,4 +229,5 @@ with right:
 # -------------------------------------------------------------
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit by Atanu Paul-2025")
+
 
