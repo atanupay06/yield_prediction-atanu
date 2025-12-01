@@ -23,10 +23,10 @@ st.markdown("""
 
 /* Title */
 .big-title {
-    font-size: 40px !important;
+    font-size: 50px !important;
     font-weight: 800 !important;
     padding: 10px;
-    color: #2F855A;
+    color: #00bcbf;
 .card    text-align: center;
 }
 
@@ -203,8 +203,8 @@ with right:
 
                 st.markdown(f"""
                     <div class="result-card">
-                        🌱 **Predicted Yield:** {pred_yield:.4f} per unit  
-                        📦 **Total Production:** {pred_production:.2f} units  
+                        🌱 Predicted Yield: {pred_yield:.4f} per unit<br>
+                        📦 Total Production: {pred_production:.2f} units  
                     </div>
                 """, unsafe_allow_html=True)
 
@@ -229,5 +229,6 @@ with right:
 # -------------------------------------------------------------
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit by Atanu Paul-2025")
+
 
 
