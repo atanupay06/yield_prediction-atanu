@@ -23,7 +23,7 @@ st.markdown("""
 
 /* Title */
 .big-title {
-    font-size: 50px !important;
+    font-size: 40px !important;
     font-weight: 800 !important;
     padding: 10px;
     color: #00bcbf;
@@ -229,6 +229,7 @@ with right:
 # -------------------------------------------------------------
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit by Atanu Paul-2025")
+
 
 
 
